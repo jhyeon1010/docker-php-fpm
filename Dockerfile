@@ -30,7 +30,6 @@ RUN apt-get install -y \
     php-memcached \
     && mkdir /var/run/php
 
-
 ARG UID=1000
 RUN usermod -u $UID www-data
 
